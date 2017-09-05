@@ -4,7 +4,7 @@
 		module="marketdata_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20170901180508"
+		publication="20170905182755"
 	>
 		<description>
 		MarketData
@@ -32,8 +32,8 @@
 		<artifact name="marketdata_2.12" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.3" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.12.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.2" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.2" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.github.seratch" name="awscala_2.12" rev="0.6.+" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-json_2.12" rev="2.6.3" conf="compile->default(compile)"/>
 	</dependencies>

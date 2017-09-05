@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="marketdata$sources_2.11"
+		revision="0.1.1"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170905184718"/>
+	<dependencies>
+		<module organisation="com.github.seratch" name="awscala_2.11">
+			<revision name="0.6.1" status="release" pubdate="20170829195621" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/seratch/awscala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4885" time="0" location="/home/pedro/.ivy2/cache/com.github.seratch/awscala_2.11/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/seratch/awscala_2.11/0.6.1/awscala_2.11-0.6.1.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="awscala_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71128" time="0" location="/home/pedro/.ivy2/cache/com.github.seratch/awscala_2.11/srcs/awscala_2.11-0.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/seratch/awscala_2.11/0.6.1/awscala_2.11-0.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-dynamodb">
+			<revision name="1.11.184" status="release" pubdate="20170825202139" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5750" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-dynamodb/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.11.184/aws-java-sdk-dynamodb-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-dynamodb" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="989947" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-dynamodb/srcs/aws-java-sdk-dynamodb-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.11.184/aws-java-sdk-dynamodb-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-s3">
+			<revision name="1.11.184" status="release" pubdate="20170825202211" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5400" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.184/aws-java-sdk-s3-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-s3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="776191" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/srcs/aws-java-sdk-s3-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.184/aws-java-sdk-s3-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-ec2">
+			<revision name="1.11.184" status="release" pubdate="20170825202213" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5241" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-ec2/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.11.184/aws-java-sdk-ec2-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-ec2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2644166" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-ec2/srcs/aws-java-sdk-ec2-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.11.184/aws-java-sdk-ec2-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-sqs">
+			<revision name="1.11.184" status="release" pubdate="20170825202236" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5250" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-sqs/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sqs/1.11.184/aws-java-sdk-sqs-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-sqs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="273215" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-sqs/srcs/aws-java-sdk-sqs-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sqs/1.11.184/aws-java-sdk-sqs-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.11">
+			<revision name="2.6.3" status="release" pubdate="20170809185101" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4852" time="0" location="/home/pedro/.ivy2/cache/com.typesafe.play/play-json_2.11/ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.6.3/play-json_2.11-2.6.3.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="play-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46976" time="0" location="/home/pedro/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.6.3/play-json_2.11-2.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-kms">
+			<revision name="1.11.184" status="release" pubdate="20170825202206" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5246" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-kms/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.184/aws-java-sdk-kms-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-kms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="379317" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-kms/srcs/aws-java-sdk-kms-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.184/aws-java-sdk-kms-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-sts">
+			<revision name="1.11.184" status="release" pubdate="20170825202234" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5246" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-sts/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.184/aws-java-sdk-sts-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-sts" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="152897" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-sts/srcs/aws-java-sdk-sts-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.184/aws-java-sdk-sts-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.8.3" status="release" pubdate="20170821121451" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6284" time="0" location="/home/pedro/.ivy2/cache/org.joda/joda-convert/ivy-1.8.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.3/joda-convert-1.8.3.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50929" time="0" location="/home/pedro/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.3/joda-convert-1.8.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-iam">
+			<revision name="1.11.184" status="release" pubdate="20170825202158" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5262" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-iam/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-iam/1.11.184/aws-java-sdk-iam-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-iam" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1063473" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-iam/srcs/aws-java-sdk-iam-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-iam/1.11.184/aws-java-sdk-iam-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.9" status="release" pubdate="20170611213719" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57660" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.11">
+			<revision name="1.1.1" status="release" pubdate="20160215085037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/pedro/.ivy2/cache/org.typelevel/macro-compat_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="macro-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="/home/pedro/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-emr">
+			<revision name="1.11.184" status="release" pubdate="20170825202202" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5255" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-emr/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-emr/1.11.184/aws-java-sdk-emr-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-emr" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="676114" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-emr/srcs/aws-java-sdk-emr-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-emr/1.11.184/aws-java-sdk-emr-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
+			<revision name="2.8.9" status="release" pubdate="20170612020823" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="21226" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62123" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.9" status="release" pubdate="20170323103313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6647" time="0" location="/home/pedro/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="778815" time="0" location="/home/pedro/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-simpledb">
+			<revision name="1.11.184" status="release" pubdate="20170825202242" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5261" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-simpledb/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.11.184/aws-java-sdk-simpledb-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-simpledb" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="149724" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-simpledb/srcs/aws-java-sdk-simpledb-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-simpledb/1.11.184/aws-java-sdk-simpledb-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
+			<revision name="2.8.9" status="release" pubdate="20170612020811" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="20932" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20320" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.9" status="release" pubdate="20170611215351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8156" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="929913" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.9" status="release" pubdate="20170611214341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7423" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="294668" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.11" status="release" pubdate="20170413165043" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2829" time="0" location="/home/pedro/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.11/scala-reflect-2.11.11.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.1.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="565435" time="0" location="/home/pedro/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.11/scala-reflect-2.11.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-redshift">
+			<revision name="1.11.184" status="release" pubdate="20170825202210" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5261" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-redshift/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-redshift/1.11.184/aws-java-sdk-redshift-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-redshift" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="752613" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-redshift/srcs/aws-java-sdk-redshift-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-redshift/1.11.184/aws-java-sdk-redshift-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="jmespath-java">
+			<revision name="1.11.184" status="release" pubdate="20170825202244" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5010" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/jmespath-java/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.184/jmespath-java-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="jmespath-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33464" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/jmespath-java/srcs/jmespath-java-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.184/jmespath-java-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-core">
+			<revision name="1.11.184" status="release" pubdate="20170825202208" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="6889" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-core/ivy-1.11.184.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.184/aws-java-sdk-core-1.11.184.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.184" rev-constraint-default="1.11.184" rev-constraint-dynamic="1.11.184" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="728399" time="0" location="/home/pedro/.ivy2/cache/com.amazonaws/aws-java-sdk-core/srcs/aws-java-sdk-core-1.11.184-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.184/aws-java-sdk-core-1.11.184-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor">
+			<revision name="2.6.7" status="release" pubdate="20160605184228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonForCbor" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7591" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/ivy-2.6.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6.7" rev-constraint-default="2.6.7" rev-constraint-dynamic="2.6.7" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-cbor" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38431" time="0" location="/home/pedro/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/srcs/jackson-dataformat-cbor-2.6.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.ion" name="ion-java">
+			<revision name="1.0.2" status="release" pubdate="20170207220019" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/amznlabs/ion-java/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3140" time="0" location="/home/pedro/.ivy2/cache/software.amazon.ion/ion-java/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="ion-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="454026" time="0" location="/home/pedro/.ivy2/cache/software.amazon.ion/ion-java/srcs/ion-java-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.3" status="release" pubdate="20130516170523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10350" time="0" location="/home/pedro/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73915" time="0" location="/home/pedro/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.11">
+			<revision name="2.6.3" status="release" pubdate="20170809185236" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2686" time="0" location="/home/pedro/.ivy2/cache/com.typesafe.play/play-functional_2.11/ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.6.3/play-functional_2.11-2.6.3.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9853" time="0" location="/home/pedro/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.6.3/play-functional_2.11-2.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.11" status="release" pubdate="20170413165031" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="18">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/pedro/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.1.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911961" time="0" location="/home/pedro/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.2" status="release" pubdate="20160221130550" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9802" time="0" location="/home/pedro/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="707899" time="0" location="/home/pedro/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.9" status="release" pubdate="20131221015739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10097" time="0" location="/home/pedro/.ivy2/cache/commons-codec/commons-codec/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278370" time="0" location="/home/pedro/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.4" status="release" pubdate="20151026151814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7705" time="0" location="/home/pedro/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom"/>
+				<caller organisation="default" name="marketdata$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.4.4" rev-constraint-default="4.4.4" rev-constraint-dynamic="4.4.4" callerrev="0.1.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="405277" time="0" location="/home/pedro/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

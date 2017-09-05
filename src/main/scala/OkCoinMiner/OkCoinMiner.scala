@@ -16,11 +16,11 @@ object OkCoinMiner {
   def writeToDB(ticker: JsValue): Unit = {
     implicit val dynamoDB: DynamoDB = DynamoDB.at(Region.US_EAST_1)
 
-    val table: Table = dynamoDB.table("OkCoinReads").get
+    val table: Table = dynamoDB.table("OkCoinTickers").get
 
     println(ticker)
     table.put(
-      (ticker \ "date").get,
+      Json.stringify((ticker \ "date").get),
       "buy" -> Json.stringify((ticker \ "ticker" \ "buy").get),
       "sell" -> Json.stringify((ticker \ "ticker" \ "sell").get),
       "high" -> Json.stringify((ticker \ "ticker" \ "high").get),

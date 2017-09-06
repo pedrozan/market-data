@@ -1,4 +1,4 @@
-import OkCoinMiner.OkCoinMiner._
+import com.quambo.miners._
 
 object Main {
 
@@ -7,6 +7,7 @@ object Main {
   }
 
   def mineData(): Unit = {
-    mineOkCoin()
+    // OkCoin.mineOkCoin()
+    Bitfinex.mineBitfinex()
   }
 }

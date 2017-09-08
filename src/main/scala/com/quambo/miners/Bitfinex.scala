@@ -1,5 +1,7 @@
 package com.quambo.miners
 
+import java.util.Calendar
+
 import awscala.Region
 import awscala.dynamodbv2.{DynamoDB, Table}
 import play.api.libs.json.{JsValue, Json}
@@ -30,7 +32,8 @@ object Bitfinex {
       "last_price" -> Json.stringify((ticker \ "last_price").get),
       "low" -> Json.stringify((ticker \ "low").get),
       "high" -> Json.stringify((ticker \ "high").get),
-      "volume" -> Json.stringify((ticker \ "volume").get)
+      "volume" -> Json.stringify((ticker \ "volume").get),
+      "current_date" -> Calendar.getInstance.getTime.toString
     )
   }
 
@@ -38,6 +41,7 @@ object Bitfinex {
     def go(oldTicker: JsValue): Unit = {
       val ticker = readTicker()
       if ((oldTicker \ "timestamp").get != (ticker \ "timestamp").get) writeToDB(ticker)
+      Thread.sleep(1000)
       go(ticker)
     }
 

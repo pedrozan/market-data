@@ -1,5 +1,5 @@
 name := "MarketData"
-version := "0.1.2"
+version := "0.1.3.1"
 scalaVersion := "2.11.11"
 
 libraryDependencies += "com.github.seratch" %% "awscala" % "0.6.+"

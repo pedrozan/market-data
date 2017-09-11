@@ -17,4 +17,6 @@ project/plugins/project/
 *.log
 
 .idea/
-target
+/log.txt
+project/project/
+src/test/

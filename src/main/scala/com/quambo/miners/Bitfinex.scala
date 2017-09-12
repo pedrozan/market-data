@@ -28,7 +28,14 @@ object Bitfinex {
 
   def readTicker(): JsValue = {
     val url = "https://api.bitfinex.com/v1/pubticker/btcusd"
-    val result = scala.io.Source.fromURL(url).mkString
+    val result = try {
+      scala.io.Source.fromURL(url).mkString
+    } catch {
+      case e: Throwable => {
+        io.log(Array("API failure", e.getMessage))
+        """{"error":"API failure"}"""
+      }
+    }
 
     Json.parse(result)
   }
